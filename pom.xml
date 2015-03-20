@@ -30,26 +30,6 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.16.2</version>
-        </dependency>
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-api</artifactId>
-            <version>1.7.7</version>
-        </dependency>
-        <dependency>
-            <groupId>ch.qos.logback</groupId>
-            <artifactId>logback-classic</artifactId>
-            <version>1.1.2</version>
-        </dependency>
-        <dependency>
-            <groupId>ch.qos.logback</groupId>
-            <artifactId>logback-core</artifactId>
-            <version>1.1.2</version>
-        </dependency>
-        <dependency>
             <groupId>org.apache.openejb</groupId>
             <artifactId>openejb-cxf-rs</artifactId>
             <version>${openejb.version}</version>
@@ -58,18 +38,9 @@
     </dependencies>
     <repositories>
         <repository>
-            <id>ethlo</id>
-            <url>http://ethlo.com/maven</url>
-        </repository>
-        <repository>
             <id>apache-m2-snapshot</id>
             <name>Apache Snapshot Repository</name>
             <url>http://repository.apache.org/snapshots</url>
-        </repository>
-        <repository>
-            <id>dax-repo</id>
-            <name>Dax Third Party Jars</name>
-            <url>http://nexus.sys.dax.local:8081/nexus/content/repositories/thirdparty/</url>
         </repository>
     </repositories>
 </project>
